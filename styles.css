@@ -1,0 +1,32 @@
+/* Estilos para la lista de canciones y la sección de detalles */
+#song-list {
+  float: left;
+  width: 33.33%;
+  height: 100vh;
+  overflow-y: auto;
+}
+  
+#song-details {
+  float: left;
+  width: 66.67%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Estilo para la imagen del álbum */
+#album-cover {
+  width: 600px; /* Ancho deseado */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+  
+/* Estilos para la barra de opciones de reproducción */
+#player-controls {
+  clear: both;
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
